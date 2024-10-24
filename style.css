@@ -13,7 +13,19 @@ body {
     width: 300px;
 }
 
-.controls button {
+#drop-area {
+    border: 2px dashed #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+}
+
+#drop-area p {
+    margin: 0;
+}
+
+button {
     background-color: #007bff;
     color: white;
     border: none;
@@ -23,14 +35,10 @@ body {
     border-radius: 5px;
 }
 
-.controls button:hover {
+button:hover {
     background-color: #0056b3;
 }
 
-.progress-bar, .volume-control {
-    margin: 20px 0;
-}
-
-input[type="range"] {
-    width: 100%;
+.controls, .progress-bar, .volume-control {
+    margin-top: 20px;
 }
