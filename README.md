@@ -1,2 +1,2 @@
 # musicplayer
-mp3 player
+audio file player https://nuhuhhuuh.github.io/musicplayer/
